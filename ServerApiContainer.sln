@@ -3,16 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerApiContainer", "ServerApiContainer\ServerApiContainer.csproj", "{752F18B0-479D-467F-B42F-F2B90637BED3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerApiContainer", "ServerApiContainer\ServerApiContainer.csproj", "{752F18B0-479D-467F-B42F-F2B90637BED3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A1EEFF1A-5E82-4FFC-BCBB-19FA97983399}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevOps", "DevOps", "{9A512570-1167-409A-A8C2-45527844AB8A}"
-	ProjectSection(SolutionItems) = preProject
-		DevOps\1-Start.ps1 = DevOps\1-Start.ps1
-		DevOps\3-DeployImageToRegistry.ps1 = DevOps\3-DeployImageToRegistry.ps1
-		DevOps\5-DeployImageToAppService.ps1 = DevOps\5-DeployImageToAppService.ps1
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
